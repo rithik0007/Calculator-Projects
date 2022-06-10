@@ -1,0 +1,26 @@
+{
+
+
+  "short_name" : "calculator",
+  "name" : "calculator",
+  "icons" : [
+      {
+          "src" : "/images/bak3.jpg",
+          "type" : "image/jpg",
+          "sizes" :"512x512"
+
+        },
+
+       {
+              "src" : "/images/bak2.jpg",
+              "type" : "image/jpg",
+              "sizes" :"512x512"
+        }
+      ],
+
+      "start_url" : "/calculator.html",
+      "background_color" : "#000000",
+      "display" : "standalone",
+      "theme_color" :"#3367D6",
+      "description": "calculator machine"
+}

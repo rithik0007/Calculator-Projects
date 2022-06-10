@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name ="viewport" content="width=device-width , initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="calculator1.css">
+    <title>calculator</title>
+<!--  <meta name="description" content="software"/>
+  <meta name"theme_color" content="#3367D6"/>
+  <link rel="manifest" href="/manifest.json">
+
+
+<script>
+// if browser support  service worker
+if ('serviceWorker' in navigator ){
+  navigator.serviceWorker.register('sw.js');
+
+};
+
+</script>
+-->
+  </head>
+
+  <body>
+    <h1 class="name"> CALCULATOR </h1>
+    <form name="form1" class="search1" active="calculator1.html" method="POST">
+    <div class="size">
+    <input type ="text" name="answer"  value="0" id="display">
+    <input type="button" class="btn"  value="C" onclick="form1.answer.value=''">
+      <input type="button" class="btn"  value="<" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)">
+        <input type="button" class="btn"  value="00" onclick="form1.answer.value+='00'">
+          <input type="button" class="operator"  value="/" onclick="form1.answer.value+='/'">
+          <br>
+        </br>
+            <input type="button" class="btn"  value="7" onclick="form1.answer.value+='7'">
+              <input type="button" class="btn"  value="8" onclick="form1.answer.value+='8'">
+                <input type="button" class="btn"  value="9" onclick="form1.answer.value+='9'">
+                <input type="button" class="operator"  value="*" onclick="form1.answer.value+='*'">
+                  <br>
+                </br>
+                    <input type="button" class="btn"  value="4" onclick="form1.answer.value+='4'">
+                      <input type="button" class="btn"  value="5" onclick="form1.answer.value+='5'">
+                        <input type="button" class="btn"  value="6" onclick="form1.answer.value+='6'">
+                          <input type="button" class="operator"  value="-" onclick="form1.answer.value+='-'">
+                          <br>
+                        </br>
+                            <input type="button" class="btn"  value="1" onclick="form1.answer.value+='1'">
+                              <input type="button" class="btn"  value="2" onclick="form1.answer.value+='2'">
+                              <input type="button" class="btn"  value="3" onclick="form1.answer.value+='3'">
+                              <input type="button" class="operator"  value="+" onclick="form1.answer.value+='+'">
+                              <br>
+                            </br>
+                            <input type="button" class="btn"  value="0" onclick="form1.answer.value+='0'">
+                              <input type="button" class="btn"  value="." onclick="form1.answer.value+='.'">
+                              <input type="button" class="operator"  value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+
+</div>
+</form>
+    </body>
+    </html>
